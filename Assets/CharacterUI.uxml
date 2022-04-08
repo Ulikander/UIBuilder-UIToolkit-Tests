@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="CharacterStyle.uss" />
+    <ui:VisualElement name="ve-title-container">
+        <ui:Label text="Character Stats" display-tooltip-when-elided="true" name="label-title" class="title" />
+    </ui:VisualElement>
+    <ui:VisualElement name="ve-floadfields-container" class="floatContainer">
+        <uie:FloatField label="Current Health" value="42.2" name="floatfield-currenthealth" />
+        <uie:FloatField label="Maximum Health" value="42.2" name="floatfield-maxhealth" />
+    </ui:VisualElement>
+    <ui:VisualElement name="ve-health-container" class="healthContainer">
+        <ui:VisualElement name="ve-health-bg" class="healthBg">
+            <ui:VisualElement name="ve-health-value" class="health" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

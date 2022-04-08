@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8f547e1d0f6364c9843da15638eeee, type: 3}
+  m_Name: CF7794D3-C751-436C-A8EB-AF798C61225C
+  m_EditorClassIdentifier: 
+  ID: CF7794D3-C751-436C-A8EB-AF798C61225C
+  FriendlyName: Masterful Sword
+  Description: The sword of a master, but now it was given to you.
+  Category: 0
+  Stackable: 0
+  BuyPrice: 7800
+  SellPercentage: 0.1
+  Icon: {fileID: 21300000, guid: d31aa8412a4d374458c912d11686642a, type: 3}

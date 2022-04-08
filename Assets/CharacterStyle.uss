@@ -1,0 +1,38 @@
+VisualElement {
+}
+
+.healthContainer {
+    margin-top: 15px;
+}
+
+.healthBg {
+    width: auto;
+    border-left-color: rgba(255, 255, 255, 255);
+    border-right-color: rgba(255, 255, 255, 255);
+    border-top-color: rgba(255, 255, 255, 255);
+    border-bottom-color: rgba(255, 255, 255, 255);
+    height: 20px;
+    background-color: rgba(29, 0, 0, 255);
+}
+
+.health {
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 0, 0, 255);
+    height: 100%;
+}
+
+.title {
+    -unity-text-align: middle-center;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 255);
+    color: rgba(0, 0, 0, 255);
+    border-bottom-width: 10px;
+    -unity-font-style: bold;
+}
+
+.floatContainer {
+    margin-top: 15px;
+}

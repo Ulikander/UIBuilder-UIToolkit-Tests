@@ -1,0 +1,90 @@
+.itemList {
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+
+.itemListTop {
+    width: 100%;
+    height: 25px;
+    flex-direction: row;
+}
+
+.labelTitle {
+    width: 75%;
+    -unity-text-align: middle-left;
+    font-size: 25px;
+    -unity-font-style: bold;
+}
+
+.buttonTop {
+    width: 25%;
+}
+
+.fullSize {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.detailsIcon {
+    background-image: url('/Assets/RPG/blasphemy.jpg');
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+.containerBorders {
+    border-left-color: rgba(0, 0, 0, 255);
+    border-right-color: rgba(0, 0, 0, 255);
+    border-top-color: rgba(0, 0, 0, 255);
+    border-bottom-color: rgba(0, 0, 0, 255);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.containerTitle {
+    border-left-color: rgba(0, 0, 0, 255);
+    border-right-color: rgba(0, 0, 0, 255);
+    border-top-color: rgba(0, 0, 0, 255);
+    border-bottom-color: rgba(0, 0, 0, 255);
+    background-color: rgba(34, 34, 34, 255);
+    -unity-text-align: middle-left;
+    padding-left: 5px;
+}
+
+.containerField {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    -unity-text-align: middle-left;
+    -unity-font-style: normal;
+    justify-content: flex-start;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.containerSpaced {
+    justify-content: flex-start;
+    align-items: stretch;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgba(115, 115, 115, 255);
+    border-right-color: rgba(115, 115, 115, 255);
+    border-top-color: rgba(115, 115, 115, 255);
+    border-bottom-color: rgba(115, 115, 115, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-basis: auto;
+}
